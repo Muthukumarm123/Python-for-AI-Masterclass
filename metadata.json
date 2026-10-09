@@ -1,0 +1,6 @@
+{
+  "name": "Python for AI Handbook | Complete Masterclass",
+  "description": "Comprehensive interactive study handbook for Python for AI Engineering. Features interactive code playground, deep architectural walkthroughs, and practice challenges.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
