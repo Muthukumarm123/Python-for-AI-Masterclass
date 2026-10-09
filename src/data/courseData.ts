@@ -1,3 +1,6 @@
+import uvIllustration from '../assets/images/illustration_uv_tooling_1791572999993.jpg';
+import llmIllustration from '../assets/images/illustration_llm_pipeline_1791573011970.jpg';
+
 export interface LessonSection {
   id: string;
   title: string;
@@ -68,7 +71,7 @@ export const COURSE_MODULES: CourseModule[] = [
     duration: '45 min',
     category: 'Foundation',
     aiRelevance: 'AI libraries (PyTorch, OpenAI, Hugging Face, Transformers) have complex dependencies. A clean virtual environment setup and lightning-fast package management with uv prevents dependency hell and broken CUDA/C++ builds.',
-    imageVisual: '/src/assets/images/illustration_uv_tooling_1791572999993.jpg',
+    imageVisual: uvIllustration,
     keyTakeaways: [
       'Install and verify modern Python 3.12+ across Windows, macOS, and Linux',
       'Configure VS Code with must-have AI extensions: Pylance, Ruff, and Python',
@@ -2197,7 +2200,7 @@ for item in runs:
     duration: '50 min',
     category: 'AI Engineering',
     aiRelevance: 'Frontier AI models are hosted as REST APIs. Understanding HTTP requests, authorization headers (Bearer tokens), query parameters, and payload serialization lets you connect to any AI endpoint without relying on third-party wrapper SDKs.',
-    imageVisual: '/src/assets/images/illustration_llm_pipeline_1791573011970.jpg',
+    imageVisual: llmIllustration,
     keyTakeaways: [
       'Understand HTTP verbs: GET (read), POST (generate/create), and status codes (200, 401, 429)',
       'Manage API keys securely using python-dotenv and environment variables (.env)',

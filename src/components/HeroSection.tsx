@@ -1,5 +1,6 @@
 import React from 'react';
 import { Search, Play, CheckCircle2, Terminal, ArrowRight, BookOpen, Hash } from 'lucide-react';
+import heroImg from '../assets/images/hero_python_for_ai_1791572988925.jpg';
 
 interface HeroSectionProps {
   searchQuery: string;
@@ -108,7 +109,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
           <div className="lg:col-span-5 flex items-center justify-center">
             <div className="relative w-full rounded-xl overflow-hidden border border-slate-800 bg-slate-900/60 shadow-2xl">
               <img
-                src="/src/assets/images/hero_python_for_ai_1791572988925.jpg"
+                src={heroImg}
                 alt="Python for AI neural pipeline architecture visual"
                 referrerPolicy="no-referrer"
                 className="w-full h-auto object-cover max-h-[300px] sm:max-h-[340px]"
